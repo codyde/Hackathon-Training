@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "intent": "VMCountIntent"
+    },
+    {
+      "intent": "getvcHealthIntent"
+    },
+    {
+      "intent": "memoryCountIntent"
+    },
+    {
+      "intent": "ApplianceUptimeIntent"
+    },
+    {
+      "intent": "currentDateIntent"
+    },
+    {
+      "intent": "CountVMsPyvmomi"
+    },
+    {
+      "intent": "dcReportIntent"
+    },
+    {
+      "intent": "NoIntent"
+    },
+    {
+      "intent": "CheckNsxApi"
+    }
+    {
+      "slots": [
+        {
+          "name": "vwname",
+          "type": "virtual_wires"
+        }
+      ],
+      "intent": "createNSXWire"
+    }
+  ]
+}

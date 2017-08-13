@@ -1,0 +1,14 @@
+NoIntent no
+NoIntent exit
+NoIntent thank you
+VMCountIntent report total vms
+VMCountIntent count my virtual machines
+getvcHealthIntent report health
+memoryCountIntent report provisioned memory
+ApplianceUptimeIntent report appliance uptime
+currentDateIntent tell me the current date
+GetFirstClusterIntent report first cluster
+CountVMsPyvmomi count vms with python
+dcReportIntent tell me about my datacenter
+dcReportIntent status report
+

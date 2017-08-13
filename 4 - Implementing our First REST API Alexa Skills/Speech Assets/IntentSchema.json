@@ -1,0 +1,22 @@
+{
+    "intents": [
+      {
+        "intent": "VMCountIntent"
+      },
+      {
+        "intent": "getvcHealthIntent"
+      },
+      {
+        "intent": "memoryCountIntent"
+      },
+      {
+        "intent": "ApplianceUptimeIntent"
+      },
+      {
+          "intent": "currentDateIntent"
+      },
+      {
+          "intent": "NoIntent"
+      }
+    ]
+  }

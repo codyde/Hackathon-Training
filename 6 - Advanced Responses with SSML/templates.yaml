@@ -1,0 +1,7 @@
+AdvancedSSML: |
+  <speak>
+      My vCenter environment is currently running vCenter {{version}} with build <say-as interpret-as="digits">{{build}}</say-as>.
+      Counting our Virtual Machines, I see {{ count }} machines active in the environment. Self diagnostics show that my current health is {{ health }}.
+      <say-as interpret-as="interjection">booya</say-as> I am <emphasis level="strong">quite</emphasis> proud of myself. 
+      <say-as interpret-as="interjection">boom!</say-as> Mic Drop.
+  </speak>

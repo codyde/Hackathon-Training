@@ -1,0 +1,31 @@
+{
+  "intents": [
+    {
+      "intent": "VMCountIntent"
+    },
+    {
+      "intent": "getvcHealthIntent"
+    },
+    {
+      "intent": "memoryCountIntent"
+    },
+    {
+      "intent": "ApplianceUptimeIntent"
+    },
+    {
+      "intent": "currentDateIntent"
+    },
+    {
+      "intent": "GetFirstClusterIntent"
+    },
+    {
+      "intent": "CountVMsPyvmomi"
+    },
+    {
+      "intent": "dcReportIntent"
+    },
+    {
+      "intent": "NoIntent"
+    }
+  ]
+}

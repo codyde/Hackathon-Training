@@ -1,0 +1,9 @@
+NoIntent no
+NoIntent exit
+NoIntent thank you
+VMCountIntent report total vms
+VMCountIntent count my virtual machines
+ApplianceHealthIntent report health
+memoryCountIntent report provisioned memory
+ApplianceUptimeIntent report appliance uptime
+currentDateIntent tell me the current date

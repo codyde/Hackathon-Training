@@ -16,9 +16,6 @@
       "intent": "currentDateIntent"
     },
     {
-      "intent": "GetFirstClusterIntent"
-    },
-    {
       "intent": "CountVMsPyvmomi"
     },
     {

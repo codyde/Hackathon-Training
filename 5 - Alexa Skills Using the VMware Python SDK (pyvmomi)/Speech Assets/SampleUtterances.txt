@@ -7,6 +7,5 @@ getvcHealthIntent report health
 memoryCountIntent report provisioned memory
 ApplianceUptimeIntent report appliance uptime
 currentDateIntent tell me the current date
-GetFirstClusterIntent report first cluster
 CountVMsPyvmomi count vms with python
 

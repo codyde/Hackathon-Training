@@ -52,12 +52,6 @@ def uptime_appliance():
     return question(uptimeMsg)
 
 
-@ask.intent("GetFirstClusterIntent")
-def first_cluster():
-    fc = get_first_cluster()
-    return statement(fc)
-
-
 @ask.intent("CountVMsPyvmomi")
 def python_count():
     count = count_vms_pyvmomi()

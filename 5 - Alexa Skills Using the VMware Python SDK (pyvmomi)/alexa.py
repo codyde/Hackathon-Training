@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_ask import Ask, statement, question
 import time
-from pyvcapi import get_vcenter_clusters, get_vcenter_health_status, vm_count, vm_memory_count, get_uptime, get_first_cluster, count_vms_pyvmomi
+from pyvcapi import get_vcenter_clusters, get_vcenter_health_status, vm_count, vm_memory_count, get_uptime, count_vms_pyvmomi
 
 app = Flask(__name__)
 ask = Ask(app, "/hackathon")
@@ -48,10 +48,6 @@ def uptime_appliance():
     uptimeMsg = 'Your current VCSA uptime is {} hours'.format(ut)
     return question(uptimeMsg)
 
-@ask.intent("GetFirstClusterIntent")
-def first_cluster():
-    fc = get_first_cluster()
-    return statement(fc)
 
 @ask.intent("CountVMsPyvmomi")
 def python_count():

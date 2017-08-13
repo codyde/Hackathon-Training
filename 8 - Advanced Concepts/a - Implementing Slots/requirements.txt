@@ -1,0 +1,6 @@
+flask
+flask-ask
+pyvmomi
+requests
+configparser
+flask_assets

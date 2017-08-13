@@ -1,0 +1,4 @@
+flask
+flask-ask
+pyvmomi
+requests

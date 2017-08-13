@@ -19,7 +19,7 @@ def start_skill():
 
 @ask.intent('currentDateIntent')
 def current_date():
-    currentDate = time.strftime("%d/$m/%Y")
+    currentDate = time.strftime("%m/%d/%Y")
     return statement("The current date is " + currentDate)
 
 

@@ -2,7 +2,7 @@
 
 We introduce a few new components in this module. You'll notice we now have a speech assets folder. We will use this to load our intent schema and utterances onto the Amazon developer center when we build our skill. You can learn more about this process at https://www.thehumblelab.com/integrating-echo-vmware/. 
 
-We've created our basic API functions, and updated our alexa.py file to include these imports now. We've added some additional intents just for additional testings sake. 
+We've created our basic API functions, and updated our alexa.py file to include these imports now. We've added some additional intents just for additional testing’s sake. 
 
 You can see we've build our "@ask.launch" skill, which welcomes us to the hackathon and then presents us our question. 
 

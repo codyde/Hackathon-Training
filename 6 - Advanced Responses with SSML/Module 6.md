@@ -10,8 +10,8 @@ SSML will let us change how Alexa reads numbers, change her tone, emphasize word
 
 We've created a basic example within of a "Datacenter Status" intent that reads over the health of the vCenter, the version of the API, the version of vCenter, and counts the machines. 
 
-**Whats Next** 
+**What’s Next** 
 
 Up until now we've really just an API gateway for AWS. We've had to hard code configuration data within our application. In the next module we're going to dig into the user interface. We'll build a simple logon page, and a configuration page. We'll also clean up some of our code to make it a bit more production worthy. We'll introduce some configuration flat files that can be updated from our interface. 
 
-We've built this interface using ClarityUI, VMwares open source user interface toolkit; so you'll get a bit of experience working with that as well! 
+We've built this interface using ClarityUI, VMware’s open source user interface toolkit; so you'll get a bit of experience working with that as well! 
